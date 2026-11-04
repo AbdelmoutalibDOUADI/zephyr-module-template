@@ -103,6 +103,10 @@ Computing : 1
 
 Other boards should work as long as their HAL is added to `name-allowlist` in `west.yml`.
 
+## Acknowledgements
+
+This project was built by following **Guide 2: Creating Your Application** from *The Zephyr Project Course* by **Witekio Software Academy**, then adapted and tested on a NUCLEO-L152RE board.
+
 ## Author
 
 **Abdelmoutalib Douadi**, Mechatronics & Embedded Systems engineering student
