@@ -1,0 +1,17 @@
+config MYLIB
+	bool "Support for mylib library"
+	help
+	  This option enables the 'mylib' library
+
+config MYLIB_ANSWER
+	int "universal answer configuration value"
+	depends on MYLIB
+	default 42
+	help
+	  Answer to the Ultimate Question of Life, the Universe, and Everything" in 
+	  The Hitchhiker's Guide to the Galaxy and The Hitchhiker Ultimate Guide 
+	  to the Galaxy books. It was computed by Deep Thought, the second greatest 
+	  computer ever.
+	  The descendants of Deep Thought's creators are upset by the numeric nature 
+	  of the answer, not understanding what to do with it or what to tell the 
+	  people who had commissioned the 7.5-million year project.

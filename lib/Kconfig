@@ -1,0 +1,5 @@
+menu "Custom Libraries"
+
+rsource "mylib/Kconfig"
+
+endmenu
